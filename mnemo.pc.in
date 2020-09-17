@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libmnemo
+Description: Mnemo: Toolkit for Memory Analysis and Optimization
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -lmnemo
+Cflags: -I${includedir}

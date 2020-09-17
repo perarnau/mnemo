@@ -1,0 +1,14 @@
+#ifndef MNEMO_VERSION_H
+#define MNEMO_VERSION_H 1
+
+#define	MNEMO_VERSION_MAJOR @PACKAGE_VERSION_MAJOR@
+#define	MNEMO_VERSION_MINOR @PACKAGE_VERSION_MINOR@
+#define	MNEMO_VERSION_PATCH @PACKAGE_VERSION_PATCH@
+#define	MNEMO_VERSION_STRING "@PACKAGE_VERSION@"
+
+extern const int mnemo_version_major;
+extern const int mnemo_version_minor;
+extern const int mnemo_version_patch;
+extern const char *mnemo_version_string;
+
+#endif /* MNEMO_VERSION_H */
