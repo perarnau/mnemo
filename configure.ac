@@ -30,6 +30,9 @@ AC_TYPE_INTPTR_T
 AM_PROG_AR
 LT_INIT
 
+# Support for python package install
+AM_PATH_PYTHON([3.0])
+
 # Extra dependencies, configuration
 ###################################
 
@@ -58,6 +61,7 @@ AC_CONFIG_FILES([Makefile
 		 src/Makefile
 		 include/Makefile
 		 tests/Makefile
+		 bindings/Makefile
 		 mnemo.pc
 		 include/mnemo/utils/version.h])
 AC_OUTPUT

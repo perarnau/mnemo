@@ -1,5 +1,5 @@
 ACLOCAL_AMFLAGS = -I m4
-SUBDIRS = src include tests 
+SUBDIRS = src include tests bindings
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = mnemo.pc

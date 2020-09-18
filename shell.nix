@@ -7,6 +7,7 @@ pkgs.mkShell {
         name = "mnemo";
 	nativeBuildInputs = [ autoreconfHook pkgconfig ];
         buildInputs = [
+          python3
         ];
         CFLAGS = "-std=c99 -pedantic -Wall -Wextra";
 }
