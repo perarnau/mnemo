@@ -75,3 +75,7 @@ features.h
 
 # package config
 mnemo.pc
+
+# python
+*.pyc
+**/__pycache__
